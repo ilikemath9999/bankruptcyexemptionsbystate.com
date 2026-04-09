@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://bankruptcyexemptionsbystate.com/sitemapindex.xml
+
+Sitemap: https://bankruptcyexemptionsbystate.com/feed.xml
