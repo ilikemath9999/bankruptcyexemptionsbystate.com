@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>Bankruptcy Exemptions by State - All 50 States Guide [2026]</title>
+<meta content="Compare bankruptcy exemptions, means test income limits, and filing statistics for all 50 states. Free state-by-state bankruptcy guide ..." name="description"/>
+<link href="https://bankruptcyexemptionsbystate.com/states/" rel="canonical"/>
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<style>
+:root{--bg:#0d1117;--surface:#161b22;--surface-raised:#1c2129;--border:#30363d;--text:#c9d1d9;--text-bright:#f0f6fc;--text-secondary:#8b949e;--accent:#58a6ff;--accent-hover:#79c0ff;--success:#3fb950;--success-bg:rgba(63,185,80,0.12);--success-border:rgba(63,185,80,0.4);--warning:#d29922;--warning-bg:rgba(210,153,34,0.12);--warning-border:rgba(210,153,34,0.4)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;line-height:1.6}
+.container{max-width:960px;margin:0 auto;padding:24px 16px}
+header{background:var(--surface);border-bottom:1px solid var(--border);padding:16px 24px;position:sticky;top:0;z-index:100}
+header a{color:var(--accent);text-decoration:none;font-size:0.95em}
+h1{color:var(--text-bright);font-size:2em;margin:24px 0 8px}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+table{width:100%;border-collapse:collapse;margin:16px 0;background:var(--surface);border:1px solid var(--border);border-radius:8px;overflow:hidden}
+th{background:var(--surface-raised);color:var(--text-bright);padding:12px 16px;text-align:left;font-weight:600;font-size:0.9em;border-bottom:2px solid var(--border);cursor:pointer}
+th:hover{color:var(--accent)}
+td{padding:10px 16px;border-bottom:1px solid var(--border);font-size:0.9em}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:var(--surface-raised)}
+footer{text-align:center;padding:32px 16px;color:var(--text-secondary);border-top:1px solid var(--border);margin-top:48px;font-size:0.9em}
+footer a{color:var(--accent)}
+.filter{margin:16px 0;padding:10px 16px;background:var(--surface);border:1px solid var(--border);border-radius:6px;color:var(--text);font-size:0.95em;width:100%;max-width:400px}
+@media(max-width:768px){
+  h1{font-size:1.5em}
+  table{font-size:0.8em}
+  th,td{padding:8px 10px}
+}
+</style>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How does bankruptcy work in my state?", "acceptedAnswer": {"@type": "Answer", "text": "While bankruptcy is federal law, each state sets its own exemptions that determine what property you can keep. Some states also allow you to choose between state and federal exemptions. Your state's median income determines Chapter 7 eligibility through the means test."}}, {"@type": "Question", "name": "What are my state's bankruptcy exemptions?", "acceptedAnswer": {"@type": "Answer", "text": "Every state has its own set of exemptions covering your home, car, personal property, and retirement accounts. Some states are very generous with homestead exemptions, while others offer minimal protection. Check your specific state's exemption amounts before filing."}}, {"@type": "Question", "name": "Do I have to file bankruptcy in the state where I live?", "acceptedAnswer": {"@type": "Answer", "text": "You file in the federal district where you have lived for the greater portion of the last 180 days. If you recently moved, you may need to use your previous state's exemptions for up to two years after the move under the hanging paragraph rule."}}, {"@type": "Question", "name": "Does my state allow federal bankruptcy exemptions?", "acceptedAnswer": {"@type": "Answer", "text": "About 17 states allow debtors to choose between state and federal exemptions. The remaining states require you to use state exemptions only. If you have the choice, compare both sets to determine which protects more of your property."}}, {"@type": "Question", "name": "What should I know before filing bankruptcy?", "acceptedAnswer": {"@type": "Answer", "text": "Bankruptcy is a legal process that can eliminate or restructure debts, but it has lasting effects on your credit and financial life. Before filing, understand which debts can be discharged, what property you can keep through exemptions, and which chapter fits your situation."}}]}
+</script>
+</head>
+<body>
+<header>
+<a href="/">Exemptions by State</a> | <a href="https://bankruptcymeanstest.org/calculator.html">Means Test Calculator</a> | <a href="https://1328f.com">Discharge Screener</a> | <a href="https://1328f.org">Research</a>
+</header>
+<div class="container">
+<h1>Bankruptcy Exemptions by State</h1>
+<p>Compare bankruptcy rules, exemptions, and real case statistics for all 50 states and D.C. Click any state for a detailed guide.</p>
+<input class="filter" id="stateFilter" oninput="filterTable()" placeholder="Filter by state name..." type="text"/>
+<table id="stateTable">
+<thead>
+<tr>
+<th onclick="sortTable(0)">State</th>
+<th onclick="sortTable(1)">Abbr</th>
+<th onclick="sortTable(2)">Districts</th>
+<th onclick="sortTable(3)">Median Income</th>
+<th onclick="sortTable(4)">Federal Exemptions</th>
+<th onclick="sortTable(5)">FJC Cases</th>
+</tr>
+</thead>
+<tbody>
+<tr><td><a href="/states/alabama.html">Alabama</a></td><td>AL</td><td>3</td><td>$56,050</td><td>No</td><td>1,743</td></tr>
+<tr><td><a href="/states/alaska.html">Alaska</a></td><td>AK</td><td>1</td><td>$73,866</td><td>Yes</td><td>1</td></tr>
+<tr><td><a href="/states/arizona.html">Arizona</a></td><td>AZ</td><td>1</td><td>$65,014</td><td>No</td><td>34</td></tr>
+<tr><td><a href="/states/arkansas.html">Arkansas</a></td><td>AR</td><td>2</td><td>$54,714</td><td>Yes</td><td>959</td></tr>
+<tr><td><a href="/states/california.html">California</a></td><td>CA</td><td>4</td><td>$79,253</td><td>No</td><td>6,723</td></tr>
+<tr><td><a href="/states/colorado.html">Colorado</a></td><td>CO</td><td>1</td><td>$82,700</td><td>No</td><td>86</td></tr>
+<tr><td><a href="/states/connecticut.html">Connecticut</a></td><td>CT</td><td>1</td><td>$87,411</td><td>Yes</td><td>93</td></tr>
+<tr><td><a href="/states/delaware.html">Delaware</a></td><td>DE</td><td>1</td><td>$72,198</td><td>No</td><td>5</td></tr>
+<tr><td><a href="/states/district-of-columbia.html">District of Columbia</a></td><td>DC</td><td>1</td><td>$99,636</td><td>Yes</td><td>10</td></tr>
+<tr><td><a href="/states/florida.html">Florida</a></td><td>FL</td><td>3</td><td>$69,876</td><td>No</td><td>46,008</td></tr>
+<tr><td><a href="/states/georgia.html">Georgia</a></td><td>GA</td><td>3</td><td>$65,628</td><td>No</td><td>1,240</td></tr>
+<tr><td><a href="/states/hawaii.html">Hawaii</a></td><td>HI</td><td>1</td><td>$86,427</td><td>Yes</td><td>1</td></tr>
+<tr><td><a href="/states/idaho.html">Idaho</a></td><td>ID</td><td>1</td><td>$65,394</td><td>No</td><td>1</td></tr>
+<tr><td><a href="/states/illinois.html">Illinois</a></td><td>IL</td><td>3</td><td>$74,430</td><td>No</td><td>9,898</td></tr>
+<tr><td><a href="/states/indiana.html">Indiana</a></td><td>IN</td><td>2</td><td>$63,399</td><td>No</td><td>3,325</td></tr>
+<tr><td><a href="/states/iowa.html">Iowa</a></td><td>IA</td><td>2</td><td>$68,223</td><td>No</td><td>--</td></tr>
+<tr><td><a href="/states/kansas.html">Kansas</a></td><td>KS</td><td>1</td><td>$69,197</td><td>No</td><td>40,849</td></tr>
+<tr><td><a href="/states/kentucky.html">Kentucky</a></td><td>KY</td><td>2</td><td>$58,632</td><td>Yes</td><td>1,692</td></tr>
+<tr><td><a href="/states/louisiana.html">Louisiana</a></td><td>LA</td><td>3</td><td>$57,528</td><td>No</td><td>2</td></tr>
+<tr><td><a href="/states/maine.html">Maine</a></td><td>ME</td><td>1</td><td>$67,692</td><td>No</td><td>3</td></tr>
+<tr><td><a href="/states/maryland.html">Maryland</a></td><td>MD</td><td>1</td><td>$97,203</td><td>No</td><td>559</td></tr>
+<tr><td><a href="/states/massachusetts.html">Massachusetts</a></td><td>MA</td><td>1</td><td>$95,727</td><td>Yes</td><td>1,356</td></tr>
+<tr><td><a href="/states/michigan.html">Michigan</a></td><td>MI</td><td>2</td><td>$66,087</td><td>Yes</td><td>1,133</td></tr>
+<tr><td><a href="/states/minnesota.html">Minnesota</a></td><td>MN</td><td>1</td><td>$79,161</td><td>Yes</td><td>395</td></tr>
+<tr><td><a href="/states/mississippi.html">Mississippi</a></td><td>MS</td><td>2</td><td>$50,895</td><td>No</td><td>1</td></tr>
+<tr><td><a href="/states/missouri.html">Missouri</a></td><td>MO</td><td>2</td><td>$64,972</td><td>No</td><td>45,771</td></tr>
+<tr><td><a href="/states/montana.html">Montana</a></td><td>MT</td><td>1</td><td>$66,501</td><td>No</td><td>--</td></tr>
+<tr><td><a href="/states/nebraska.html">Nebraska</a></td><td>NE</td><td>1</td><td>$71,277</td><td>No</td><td>75</td></tr>
+<tr><td><a href="/states/nevada.html">Nevada</a></td><td>NV</td><td>1</td><td>$68,271</td><td>No</td><td>242</td></tr>
+<tr><td><a href="/states/new-hampshire.html">New Hampshire</a></td><td>NH</td><td>1</td><td>$86,997</td><td>Yes</td><td>--</td></tr>
+<tr><td><a href="/states/new-jersey.html">New Jersey</a></td><td>NJ</td><td>1</td><td>$93,051</td><td>Yes</td><td>1,580</td></tr>
+<tr><td><a href="/states/new-mexico.html">New Mexico</a></td><td>NM</td><td>1</td><td>$57,528</td><td>Yes</td><td>5</td></tr>
+<tr><td><a href="/states/new-york.html">New York</a></td><td>NY</td><td>4</td><td>$73,272</td><td>Yes</td><td>1,231</td></tr>
+<tr><td><a href="/states/north-carolina.html">North Carolina</a></td><td>NC</td><td>3</td><td>$63,339</td><td>No</td><td>827</td></tr>
+<tr><td><a href="/states/north-dakota.html">North Dakota</a></td><td>ND</td><td>1</td><td>$73,749</td><td>No</td><td>23</td></tr>
+<tr><td><a href="/states/ohio.html">Ohio</a></td><td>OH</td><td>2</td><td>$63,564</td><td>No</td><td>3,971</td></tr>
+<tr><td><a href="/states/oklahoma.html">Oklahoma</a></td><td>OK</td><td>3</td><td>$60,636</td><td>No</td><td>112</td></tr>
+<tr><td><a href="/states/oregon.html">Oregon</a></td><td>OR</td><td>1</td><td>$73,347</td><td>Yes</td><td>6</td></tr>
+<tr><td><a href="/states/pennsylvania.html">Pennsylvania</a></td><td>PA</td><td>3</td><td>$71,547</td><td>Yes</td><td>1,513</td></tr>
+<tr><td><a href="/states/rhode-island.html">Rhode Island</a></td><td>RI</td><td>1</td><td>$77,358</td><td>Yes</td><td>--</td></tr>
+<tr><td><a href="/states/south-carolina.html">South Carolina</a></td><td>SC</td><td>1</td><td>$61,050</td><td>No</td><td>635</td></tr>
+<tr><td><a href="/states/south-dakota.html">South Dakota</a></td><td>SD</td><td>1</td><td>$68,208</td><td>No</td><td>11</td></tr>
+<tr><td><a href="/states/tennessee.html">Tennessee</a></td><td>TN</td><td>3</td><td>$61,602</td><td>No</td><td>1,840</td></tr>
+<tr><td><a href="/states/texas.html">Texas</a></td><td>TX</td><td>4</td><td>$66,837</td><td>Yes</td><td>30,781</td></tr>
+<tr><td><a href="/states/utah.html">Utah</a></td><td>UT</td><td>1</td><td>$73,044</td><td>No</td><td>1</td></tr>
+<tr><td><a href="/states/vermont.html">Vermont</a></td><td>VT</td><td>1</td><td>$71,007</td><td>Yes</td><td>--</td></tr>
+<tr><td><a href="/states/virginia.html">Virginia</a></td><td>VA</td><td>2</td><td>$84,396</td><td>No</td><td>1,064</td></tr>
+<tr><td><a href="/states/washington.html">Washington</a></td><td>WA</td><td>2</td><td>$85,446</td><td>Yes</td><td>31</td></tr>
+<tr><td><a href="/states/west-virginia.html">West Virginia</a></td><td>WV</td><td>2</td><td>$53,196</td><td>No</td><td>60</td></tr>
+<tr><td><a href="/states/wisconsin.html">Wisconsin</a></td><td>WI</td><td>2</td><td>$70,092</td><td>Yes</td><td>1,541</td></tr>
+<tr><td><a href="/states/wyoming.html">Wyoming</a></td><td>WY</td><td>1</td><td>$71,571</td><td>No</td><td>--</td></tr>
+</tbody>
+</table>
+<p style="font-size:0.85em;color:var(--text-secondary)">Median income is for a 1-person household (Census/DOJ, Apr 2026). FJC case counts from the <a href="https://www.fjc.gov/" rel="noopener" target="_blank">Federal Judicial Center</a> Integrated Database. Click column headers to sort.</p>
+</div>
+<!-- BTN Cross-Links (auto-generated by crosslink_builder.py) -->
+<div class="btn-crosslinks" style="max-width:820px;margin:1.5rem auto;padding:1.5rem;background:#161b22;border:1px solid #30363d;border-radius:8px">
+<p style="color:#f0f6fc;font-weight:600;font-size:1rem;margin:0 0 0.75rem 0">Related Guides</p>
+<ul style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0.5rem">
+<li><a href="https://bankruptcyexemptions.org" style="color:#58a6ff;text-decoration:none">Bankruptcy Exemptions Guide</a></li>
+<li><a href="https://bankruptcylien.org" style="color:#58a6ff;text-decoration:none">Bankruptcy Lien Guide</a></li>
+<li><a href="https://keepmycarinbankruptcy.com" style="color:#58a6ff;text-decoration:none">Keep Your Car in Bankruptcy</a></li>
+<li><a href="https://keepmyhouseinbankruptcy.com" style="color:#58a6ff;text-decoration:none">Keep Your House in Bankruptcy</a></li>
+</ul>
+</div>
+<footer>
+Part of the <a href="https://1328f.org">Open Bankruptcy Project</a> | Free information, no strings.<br/>
+<span style="font-size:0.85em">
+<a href="https://automaticstay.org">Automatic Stay</a> ·
+<a href="https://chapter7vs13.org">Ch 7 vs 13</a> ·
+<a href="https://howtofilebankruptcy.org">How to File</a> ·
+<a href="https://howmuchdoesbankruptcycost.com">Cost Guide</a>
+</span>
+</footer>
+<script>
+function filterTable(){
+  var input=document.getElementById('stateFilter').value.toLowerCase();
+  var rows=document.querySelectorAll('#stateTable tbody tr');
+  rows.forEach(function(row){
+    var state=row.cells[0].textContent.toLowerCase();
+    row.style.display=state.includes(input)?'':'none';
+  });
+}
+var sortDir={};
+function sortTable(col){
+  sortDir[col]=!sortDir[col];
+  var table=document.getElementById('stateTable');
+  var rows=Array.from(table.tBodies[0].rows);
+  rows.sort(function(a,b){
+    var aVal=a.cells[col].textContent.replace(/[$,]/g,'');
+    var bVal=b.cells[col].textContent.replace(/[$,]/g,'');
+    var aNum=parseFloat(aVal),bNum=parseFloat(bVal);
+    if(!isNaN(aNum)&&!isNaN(bNum))return sortDir[col]?aNum-bNum:bNum-aNum;
+    return sortDir[col]?aVal.localeCompare(bVal):bVal.localeCompare(aVal);
+  });
+  rows.forEach(function(row){table.tBodies[0].appendChild(row)});
+}
+</script>
+<script defer="" src="/btn-engage.js"></script>
+<script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
+</body>
+</html>
